@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Gewicht Omzetten</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 offset-3">
+        <h1 class="display-4 text-center">
+          Gewicht Omzetten
+        </h1>
+        <form>
+          <div class="from-group mb-2">
+            <input id="inputKg" type="number" class="form-control form-control-lg" placeholder="Voer gewicht in KG's">
+          </div>
+        </form>
+        <div id="output">
+          <div class="card mb-2">
+            <div class="card-block">
+              <h4>Gram</h4>
+              <div id="gramOutput"></div>
+            </div>
+          </div>
+
+          <div class="card mb-2">
+            <div class="card-block">
+              <h4>Lbs</h4>
+              <div id="lbsOutput"></div>
+            </div>
+          </div>
+
+          <div class="card mb-2">
+            <div class="card-block">
+              <h4>Ounce</h4>
+              <div id="ozOutput"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>
